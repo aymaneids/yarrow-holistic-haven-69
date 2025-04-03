@@ -1,26 +1,27 @@
-
 import React, { useEffect } from "react";
 import { Leaf, Recycle, Heart, ShieldCheck, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
-
-const ValueCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => (
-  <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-all duration-300 border border-yarrow-taupe/20 hover-lift">
+const ValueCard = ({
+  icon,
+  title,
+  description
+}: {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}) => <div className="bg-white rounded-lg p-8 shadow-sm hover:shadow-md transition-all duration-300 border border-yarrow-taupe/20 hover-lift">
     <div className="bg-yarrow-sage/10 w-14 h-14 rounded-full flex items-center justify-center mb-6 text-yarrow-sage">
       {icon}
     </div>
     <h3 className="text-xl font-display font-semibold mb-3 text-gray-800">{title}</h3>
     <p className="text-gray-600">{description}</p>
-  </div>
-);
-
+  </div>;
 const About = () => {
   // Scroll to top on page load
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
-  return (
-    <div className="pt-20 animate-fadeIn">
+  return <div className="pt-20 animate-fadeIn">
       {/* Hero Section */}
       <section className="bg-yarrow-taupe/20 py-20 px-6 md:px-10">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -38,20 +39,12 @@ const About = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row items-start gap-4">
-              <a
-                href="https://www.vagaro.com/yarrowholisticbeauty"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-yarrow-sage hover:bg-yarrow-moss text-white px-6 py-3 rounded-md transition-all duration-300 font-medium hover:shadow-md inline-flex items-center"
-              >
+              <a href="https://www.vagaro.com/yarrowholisticbeauty" target="_blank" rel="noopener noreferrer" className="bg-yarrow-sage hover:bg-yarrow-moss text-white px-6 py-3 rounded-md transition-all duration-300 font-medium hover:shadow-md inline-flex items-center">
                 Book an Appointment
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               
-              <Link
-                to="/services"
-                className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium inline-flex items-center"
-              >
+              <Link to="/services" className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium inline-flex items-center">
                 Explore Our Services
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -59,11 +52,7 @@ const About = () => {
           </div>
           
           <div>
-            <img
-              src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80"
-              alt="Nature and beauty"
-              className="w-full h-[500px] object-cover rounded-lg shadow-md hover-lift"
-            />
+            <img alt="Nature and beauty" className="w-full h-[500px] object-cover rounded-lg shadow-md hover-lift" src="https://media.bio.site/sites/a3b972e8-e0b5-4b6f-b1c7-fc9f76659070/mZZt6cMAvGP5V35oZdVqAC.jpg" />
           </div>
         </div>
       </section>
@@ -83,11 +72,7 @@ const About = () => {
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
-              <img
-                src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80"
-                alt="Penny, hair stylist and owner of Yarrow Holistic Beauty"
-                className="w-full h-[600px] object-cover rounded-lg shadow-md hover-lift"
-              />
+              <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80" alt="Penny, hair stylist and owner of Yarrow Holistic Beauty" className="w-full h-[600px] object-cover rounded-lg shadow-md hover-lift" />
             </div>
             
             <div className="order-1 md:order-2">
@@ -108,17 +93,8 @@ const About = () => {
               </p>
               
               <div className="flex items-center">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png"
-                  alt="Instagram logo"
-                  className="w-6 h-6 mr-3"
-                />
-                <a
-                  href="https://www.instagram.com/yourmanegirlpenny"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium"
-                >
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png" alt="Instagram logo" className="w-6 h-6 mr-3" />
+                <a href="https://www.instagram.com/yourmanegirlpenny" target="_blank" rel="noopener noreferrer" className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium">
                   @yourmanegirlpenny
                 </a>
               </div>
@@ -145,26 +121,10 @@ const About = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <ValueCard 
-              icon={<Leaf className="h-6 w-6" />}
-              title="Holistic Approach"
-              description="We consider your overall wellbeing, not just your hair's appearance, in every service we provide."
-            />
-            <ValueCard 
-              icon={<Heart className="h-6 w-6" />}
-              title="Clean Products"
-              description="We exclusively use products free from harmful chemicals, prioritizing organic and natural ingredients."
-            />
-            <ValueCard 
-              icon={<Recycle className="h-6 w-6" />}
-              title="Sustainability"
-              description="Our practices minimize environmental impact, from water conservation to recyclable packaging."
-            />
-            <ValueCard 
-              icon={<ShieldCheck className="h-6 w-6" />}
-              title="Ethical Standards"
-              description="We support cruelty-free brands and fair trade practices in all our product selections."
-            />
+            <ValueCard icon={<Leaf className="h-6 w-6" />} title="Holistic Approach" description="We consider your overall wellbeing, not just your hair's appearance, in every service we provide." />
+            <ValueCard icon={<Heart className="h-6 w-6" />} title="Clean Products" description="We exclusively use products free from harmful chemicals, prioritizing organic and natural ingredients." />
+            <ValueCard icon={<Recycle className="h-6 w-6" />} title="Sustainability" description="Our practices minimize environmental impact, from water conservation to recyclable packaging." />
+            <ValueCard icon={<ShieldCheck className="h-6 w-6" />} title="Ethical Standards" description="We support cruelty-free brands and fair trade practices in all our product selections." />
           </div>
         </div>
       </section>
@@ -182,28 +142,18 @@ const About = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <a
-              href="https://www.vagaro.com/yarrowholisticbeauty"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white hover:bg-yarrow-cream text-yarrow-moss px-8 py-3 rounded-md transition-all duration-300 text-lg font-medium hover:shadow-lg inline-flex items-center"
-            >
+            <a href="https://www.vagaro.com/yarrowholisticbeauty" target="_blank" rel="noopener noreferrer" className="bg-white hover:bg-yarrow-cream text-yarrow-moss px-8 py-3 rounded-md transition-all duration-300 text-lg font-medium hover:shadow-lg inline-flex items-center">
               Book an Appointment
               <ArrowRight className="ml-2 h-4 w-4" />
             </a>
             
-            <Link
-              to="/contact"
-              className="text-white hover:text-yarrow-cream transition-colors duration-300 text-lg font-medium inline-flex items-center"
-            >
+            <Link to="/contact" className="text-white hover:text-yarrow-cream transition-colors duration-300 text-lg font-medium inline-flex items-center">
               Contact Us
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default About;
