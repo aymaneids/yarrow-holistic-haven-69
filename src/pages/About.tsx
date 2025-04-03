@@ -76,21 +76,14 @@ const About = () => {
             </div>
             
             <div className="order-1 md:order-2">
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                Welcome! I'm Penny, the creator and stylist behind Yarrow Holistic Beauty. My journey into holistic beauty began from a deep passion for both artistry and sustainability—finding ways to create beautiful hairstyles while honoring the health of my clients and our environment.
-              </p>
+              <p className="text-gray-600 mb-6 leading-relaxed">Hi! I’m Melissa (most of my clients call me Mel) I’ve been doing hair for 6 years at the same fun salon in Shell Beach. [ Fringe by Jasi + Co ] I specialize in razor cutting &amp; have a passion for shags! I like to call myself an “edgier” stylist and am not afraid to bring your hair vision to life.</p>
+              
+              <p className="text-gray-600 mb-6 leading-relaxed"> I’m always trying to stay in the know of what the newest hair trends are. I’m an old soul &amp; when I’m not making magic behind the chair, I also work at an incredible vintage store in Atascadero. [ Black Sheep Finds ] My passion is good style &amp; I believe a good hair style goes hand in hand with a good outfit.</p>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
-                With over a decade of experience in the beauty industry, I became increasingly aware of the harmful chemicals prevalent in traditional salon products. This realization led me to specialize in organic, non-toxic hair care and to create Yarrow—a holistic oasis where beauty and wellness coexist.
-              </p>
+            </p>
               
-              <p className="text-gray-600 mb-6 leading-relaxed">
-                I believe that beauty should never come at the expense of health. Every service at Yarrow is performed with this philosophy in mind, using products that are sustainable, clean, non-toxic, cruelty-free, organic, and eco-conscious.
-              </p>
-              
-              <p className="text-gray-600 mb-10 leading-relaxed">
-                My approach is personalized and educational—I love helping clients understand how to maintain their hair health naturally and make choices that align with their values. I'm excited to be part of your holistic beauty journey!
-              </p>
+              <p className="text-gray-600 mb-10 leading-relaxed">My approach is personalized and educational—I love helping clients understand how to maintain their hair health naturally and make choices that align with their values. I'm excited to be part of your holistic beauty journey!</p>
               
               <div className="flex items-center">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png" alt="Instagram logo" className="w-6 h-6 mr-3" />
