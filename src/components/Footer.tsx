@@ -12,19 +12,19 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* About */}
           <div>
-            <h3 className="font-display text-xl mb-4">Yarrow</h3>
+            <h3 className="font-display text-xl mb-4">Melissa Rose</h3>
             <p className="text-white/80 mb-6 text-sm">
               Charleston's premier non-toxic salon suite dedicated to holistic, organic, and sustainable beauty practices.
             </p>
             <a
-              href="https://www.instagram.com/yourmanegirlpenny"
+              href="https://www.instagram.com/melrose.hair/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-white hover:text-yarrow-cream transition-colors"
               aria-label="Instagram"
             >
               <Instagram className="h-5 w-5 mr-2" />
-              @yourmanegirlpenny
+              @melrose.hair
             </a>
           </div>
 
@@ -81,7 +81,7 @@ const Footer = () => {
           <div>
             <h3 className="font-display text-xl mb-4">Book Your Visit</h3>
             <p className="text-white/80 mb-4">
-              Ready to experience the Yarrow difference? Book your appointment online for an eco-friendly hair service that nurtures you and the planet.
+              Ready to experience the Melissa Rose difference? Book your appointment online for an eco-friendly hair service that nurtures you and the planet.
             </p>
             <Link
               to="/book-now"
@@ -95,7 +95,7 @@ const Footer = () => {
         <hr className="border-white/20 my-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-white/70">
-          <p>&copy; {currentYear} Yarrow Holistic Beauty. All rights reserved.</p>
+          <p>&copy; {currentYear} Melissa Rose Holistic Beauty. All rights reserved.</p>
           <p className="mt-2 md:mt-0">
             Sustainable beauty for a healthier planet.
           </p>
