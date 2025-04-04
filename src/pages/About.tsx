@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import { Leaf, Recycle, Heart, ShieldCheck, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -53,7 +52,7 @@ const About = () => {
           </div>
           
           <div>
-            <img alt="Nature and beauty" className="w-full h-[500px] object-cover rounded-lg shadow-md hover-lift" src="https://media.bio.site/sites/a3b972e8-e0b5-4b6f-b1c7-fc9f76659070/mZZt6cMAvGP5V35oZdVqAC.jpg" />
+            <img alt="Nature and beauty" className="w-full h-[500px] object-cover rounded-lg shadow-md hover-lift" src="https://cdn.cancercenter.com/-/media/ctca/images/others/blogs/2020/03-march/blog-relax-l.jpg" />
           </div>
         </div>
       </section>
