@@ -36,7 +36,7 @@ const About = () => {
             </h1>
             
             <p className="text-gray-600 mb-8 leading-relaxed">
-              At Melissa Rose Holistic Beauty, we believe that true beauty stems from health—both yours and the planet's. Our commitment to holistic, sustainable beauty practices guides everything we do, from the products we choose to the services we provide.
+              At Relaxation Station, we believe that true beauty stems from health—both yours and the planet's. Our commitment to holistic, sustainable beauty practices guides everything we do, from the products we choose to the services we provide.
             </p>
             
             <div className="flex flex-col sm:flex-row items-start gap-4">
@@ -58,7 +58,7 @@ const About = () => {
         </div>
       </section>
       
-      {/* Meet Penny */}
+      {/* Meet Christina */}
       <section className="py-20 px-6 md:px-10 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
@@ -67,17 +67,17 @@ const About = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-display font-semibold text-gray-800 mb-6">
-              Your Stylist Melissa
+              Your Stylist Christina
             </h2>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
-              <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80" alt="Melissa, hair stylist and owner of Melissa Rose Holistic Beauty" className="w-full h-[600px] object-cover rounded-lg shadow-md hover-lift" />
+              <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80" alt="Christina, hair stylist and owner of Relaxation Station" className="w-full h-[600px] object-cover rounded-lg shadow-md hover-lift" />
             </div>
             
             <div className="order-1 md:order-2">
-              <p className="text-gray-600 mb-6 leading-relaxed">Hi! I'm Melissa (most of my clients call me Mel) I've been doing hair for 6 years at the same fun salon in Shell Beach. [ Fringe by Jasi + Co ] I specialize in razor cutting &amp; have a passion for shags! I like to call myself an "edgier" stylist and am not afraid to bring your hair vision to life.</p>
+              <p className="text-gray-600 mb-6 leading-relaxed">Hi! I'm Christina (most of my clients call me Nikki) I've been doing hair for 6 years at the same fun salon in Shell Beach. [ Fringe by Jasi + Co ] I specialize in razor cutting &amp; have a passion for shags! I like to call myself an "edgier" stylist and am not afraid to bring your hair vision to life.</p>
               
               <p className="text-gray-600 mb-6 leading-relaxed"> I'm always trying to stay in the know of what the newest hair trends are. I'm an old soul &amp; when I'm not making magic behind the chair, I also work at an incredible vintage store in Atascadero. [ Black Sheep Finds ] My passion is good style &amp; I believe a good hair style goes hand in hand with a good outfit.</p>
               
@@ -87,9 +87,9 @@ const About = () => {
               <p className="text-gray-600 mb-10 leading-relaxed">My approach is personalized and educational—I love helping clients understand how to maintain their hair health naturally and make choices that align with their values. I'm excited to be part of your holistic beauty journey!</p>
               
               <div className="flex items-center">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/132px-Instagram_logo_2016.svg.png" alt="Instagram logo" className="w-6 h-6 mr-3" />
-                <a href="https://www.instagram.com/melrose.hair/" target="_blank" rel="noopener noreferrer" className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium">
-                  @melrose.hair
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2048px-F_icon.svg.png" alt="Facebook logo" className="w-6 h-6 mr-3" />
+                <a href="https://www.facebook.com/CMRelaxationStation" target="_blank" rel="noopener noreferrer" className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium">
+                  Christina Nikki Martin
                 </a>
               </div>
             </div>
@@ -106,7 +106,7 @@ const About = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-display font-semibold text-gray-800 mb-6">
-              What Sets Melissa Rose Apart
+              What Sets Relaxation Station Apart
             </h2>
             
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -128,7 +128,7 @@ const About = () => {
         <div className="absolute inset-0 bg-yarrow-moss/90"></div>
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <h2 className="text-3xl md:text-4xl font-display font-semibold text-white mb-6">
-            Ready to Experience the Melissa Rose Difference?
+            Ready to Experience the Relaxation Station Difference?
           </h2>
           
           <p className="text-white/90 mb-10 leading-relaxed">

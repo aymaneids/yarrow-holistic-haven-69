@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Instagram } from "lucide-react";
+import { Menu, X, Facebook } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -51,10 +51,10 @@ const Navbar = () => {
           className="relative z-50"
         >
           <h1 className="font-display font-semibold text-2xl sm:text-3xl text-yarrow-leaf hover:text-yarrow-moss transition-colors duration-300">
-            Melissa Rose
+            Relaxation Station
           </h1>
           <p className="text-xs -mt-1 text-yarrow-stone tracking-wider font-medium">
-            HOLISTIC BEAUTY
+            CHRISTINA NIKKI MARTIN
           </p>
         </Link>
 
@@ -83,13 +83,13 @@ const Navbar = () => {
           </Link>
           
           <a 
-            href="https://www.instagram.com/melrose.hair/" 
+            href="https://www.facebook.com/CMRelaxationStation" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300"
-            aria-label="Instagram"
+            aria-label="Facebook"
           >
-            <Instagram size={20} />
+            <Facebook size={20} />
           </a>
         </nav>
 
@@ -129,13 +129,13 @@ const Navbar = () => {
                 </Link>
                 
                 <a 
-                  href="https://www.instagram.com/melrose.hair/" 
+                  href="https://www.facebook.com/CMRelaxationStation" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 mt-4"
-                  aria-label="Instagram"
+                  aria-label="Facebook"
                 >
-                  <Instagram size={24} />
+                  <Facebook size={24} />
                 </a>
               </nav>
             </SheetContent>

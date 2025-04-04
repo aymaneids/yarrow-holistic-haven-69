@@ -40,7 +40,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Experience the intersection of beauty and sustainability at Yarrow Holistic Beauty, where organic hair care meets eco-conscious practices.
+            Experience the intersection of beauty and sustainability at Relaxation Station, where organic hair care meets eco-conscious practices.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -63,7 +63,7 @@ const Hero = () => {
               to="/about"
               className="group text-white hover:text-yarrow-cream transition-colors duration-300 text-lg font-medium flex items-center underline underline-offset-4"
             >
-              Meet Penny
+              Meet Christina
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

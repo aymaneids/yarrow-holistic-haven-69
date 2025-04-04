@@ -1,5 +1,7 @@
+
 import React, { useEffect } from "react";
-import { MapPin, Clock, Instagram, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
+import { MapPin, Clock, Facebook, ArrowRight } from "lucide-react";
 const Contact = () => {
   // Scroll to top on page load
   useEffect(() => {
@@ -14,7 +16,7 @@ const Contact = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-display font-semibold text-gray-800 mb-6">
-            Contact Yarrow Holistic Beauty
+            Contact Relaxation Station
           </h1>
           
           <p className="text-gray-600 max-w-2xl mx-auto mb-10">
@@ -55,10 +57,10 @@ const Contact = () => {
               </div>
               
               <div className="flex items-start">
-                <Instagram className="h-6 w-6 mr-4 mt-1 text-yarrow-sage" />
+                <Facebook className="h-6 w-6 mr-4 mt-1 text-yarrow-sage" />
                 <div>
                   <h3 className="font-medium text-xl text-gray-800 mb-2">Social Media</h3>
-                  <a href="https://www.instagram.com/yourmanegirlpenny" target="_blank" rel="noopener noreferrer" className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium text-lg">@melrose.hair</a>
+                  <a href="https://www.facebook.com/CMRelaxationStation" target="_blank" rel="noopener noreferrer" className="text-yarrow-sage hover:text-yarrow-moss transition-colors duration-300 font-medium text-lg">Christina Nikki Martin</a>
                 </div>
               </div>
             </div>
@@ -66,7 +68,7 @@ const Contact = () => {
             <div className="mt-10">
               <h3 className="font-medium text-xl text-gray-800 mb-4">Book an Appointment</h3>
               <p className="text-gray-600 mb-6">
-                Ready to experience holistic beauty at Yarrow? Book your appointment online through our Vagaro scheduling system.
+                Ready to experience holistic beauty at Relaxation Station? Book your appointment online through our Vagaro scheduling system.
               </p>
               <a href="https://www.vagaro.com/yarrowholisticbeauty" target="_blank" rel="noopener noreferrer" className="bg-yarrow-sage hover:bg-yarrow-moss text-white px-6 py-3 rounded-md transition-all duration-300 font-medium hover:shadow-md inline-flex items-center">
                 Book Online
@@ -78,7 +80,7 @@ const Contact = () => {
           <div className="h-[500px] rounded-lg overflow-hidden shadow-lg">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3354.1703968503985!2d-80.03273048482711!3d32.82182478096075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fe7c5acb7e2f1d%3A0x7caee99b43a847f0!2s1334%20Ashley%20River%20Rd%2C%20Charleston%2C%20SC%2029407%2C%20USA!5e0!3m2!1sen!2sus!4v1651248737956!5m2!1sen!2sus" width="100%" height="100%" style={{
             border: 0
-          }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Yarrow Holistic Beauty Location"></iframe>
+          }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Relaxation Station Location"></iframe>
           </div>
         </div>
       </section>
